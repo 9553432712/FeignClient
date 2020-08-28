@@ -12,5 +12,4 @@ public class WeatherService {
   public Object get(){
     return feignClientWeather.get();
   }
-
 }
